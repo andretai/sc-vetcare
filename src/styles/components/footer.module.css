@@ -1,0 +1,99 @@
+.section {
+  margin-bottom: 60px;
+  @apply px-3;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.input_div {
+  margin-bottom: 30px;
+}
+
+.input_field {
+  @apply block w-full px-2 py-1 border border-gray-500 rounded-lg;
+}
+
+.submit_div {
+  @apply flex justify-center;
+}
+
+.submit_btn {
+  @apply w-1/2 px-2 py-1 bg-indigo-500 rounded-full uppercase text-white;
+}
+
+/* Footer */
+footer {
+  padding: 60px 0 60px 0;
+  @apply px-3 bg-gray-800 text-white;
+}
+
+.footer_section {
+  margin-bottom: 45px;
+}
+
+.footer_subsection {
+  margin-bottom: 30px;
+}
+
+.logo_div {
+  @apply flex justify-center items-center;
+}
+
+.nav_div {
+  margin-left: 15px;
+}
+
+.nav_link {
+  @apply my-3 uppercase;
+}
+
+.footer_subscribe {
+  @apply relative;
+}
+
+.subscribe_input {
+  @apply w-full p-3 bg-gray-700 rounded-lg;
+}
+
+.subscribe_submit {
+  @apply absolute right-0 p-3;
+}
+
+.btm_footer {
+  margin-top: 60px;
+  @apply flex justify-between items-center font-serif;
+}
+
+.social_div {
+  @apply flex;
+}
+
+.social_link {
+  @apply w-5 ml-6;
+}
+
+@screen lg {
+  .section {
+    max-width: 512px;
+    @apply mx-auto;
+  }
+  .name_fields {
+    @apply grid grid-cols-2 col-gap-6;
+  }
+  .footer {
+    max-width: 1024px;
+    @apply grid grid-cols-3 col-gap-6 mx-auto;
+  }
+  .logo_div {
+    @apply flex justify-start items-center;
+  }
+  .btm_footer {
+    margin-top: 30px;
+    @apply flex justify-between items-center font-serif;
+  }
+  .btm_footer_section {
+    @apply col-span-3;
+  }
+}

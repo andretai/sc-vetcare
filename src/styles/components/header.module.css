@@ -1,0 +1,63 @@
+.hero {
+  @apply flex relative;
+}
+
+.hero_img {
+  @apply h-160 object-cover object-left;
+}
+
+.header {
+  @apply flex justify-between items-center absolute w-full p-6;
+}
+
+.logo_div {
+  @apply flex items-center;
+}
+
+.precaption {
+  @apply w-1/2 font-semibold;
+}
+
+.caption {
+  @apply absolute top-0 mt-64 px-3;
+}
+
+.contact_btn {
+  @apply flex items-center my-8 rounded-full font-semibold;
+}
+
+.navigation {
+  @apply hidden;
+}
+
+@screen lg {
+  .hero_img {
+    @apply h-160 w-full object-cover;
+  }
+  .header {
+    max-width: 1024px;
+    @apply flex justify-between items-center absolute left-0 right-0 mx-auto px-3 py-6;
+  }
+  .caption {
+    max-width: 1024px;
+    @apply absolute left-0 right-0 mx-auto mt-40 px-3 pr-12;
+  }
+  .header_menu {
+    @apply hidden;
+  }
+  .subcaption {
+    @apply w-1/2;
+  }
+  .navigation {
+    @apply flex items-center font-semibold;
+  }
+  .nav_bar {
+    @apply flex font-hairline capitalize;
+  }
+  .nav_link {
+    @apply mr-10;
+  }
+  .nav_btn {
+    @apply px-3 py-1 bg-green-500 rounded-full text-white text-sm;
+  }
+}

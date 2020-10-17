@@ -1,0 +1,23 @@
+.menu {
+  @apply fixed top-0 right-0 z-50 h-full w-1/2 p-6 bg-white;
+}
+.menu_close {
+  margin-bottom: 60px;
+  @apply flex justify-end;
+}
+.menu_close_icon {
+  @apply w-6;
+}
+.menu_navigation {
+  margin-bottom: 60px;
+}
+.menu_navigation_link {
+  margin-top: 15px;
+  @apply capitalize;
+}
+.menu_social {
+  @apply flex;
+}
+.menu_social_icon {
+  @apply w-5 mr-6;
+}

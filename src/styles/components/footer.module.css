@@ -46,7 +46,7 @@ footer {
 }
 
 .nav_link {
-  @apply my-3 uppercase;
+  @apply my-3 uppercase text-sm;
 }
 
 .footer_subscribe {

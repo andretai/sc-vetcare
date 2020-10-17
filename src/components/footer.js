@@ -52,10 +52,10 @@ const Footer = () => {
                 <h3 className="text-red-400">Care</h3>
               </div>
             </div>
-            <h4 className={`${style.footer_subsection} text-gray-500`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+            <h5 className={`${style.footer_subsection} text-gray-500`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
           </div>
           <div className={`${style.footer_section}`}>
-            <h2 className={`${style.footer_subsection}`}>Pages</h2>
+            <h3 className={`${style.footer_subsection}`}>Pages</h3>
             <ol className={`${style.nav_div}`}>
               <li className={`${style.nav_link}`}><Link to="/">home</Link></li>
               <li className={`${style.nav_link}`}><Link to="/services">services</Link></li>
@@ -65,8 +65,8 @@ const Footer = () => {
             </ol>
           </div>
           <div className={`${style.footer_section}`}>
-            <h2 className={`${style.footer_subsection}`}>Subscription</h2>
-            <h4 className={`${style.footer_subsection} text-gray-500`}>Subscribe to our weekly newsletter to learn more about your pets!</h4>
+            <h3 className={`${style.footer_subsection}`}>Subscription</h3>
+            <h5 className={`${style.footer_subsection} text-gray-500`}>Subscribe to our weekly newsletter to learn more about your pets!</h5>
             <div className={`${style.footer_subsection} ${style.footer_subscribe}`}>
               <input className={`${style.subscribe_input}`} type="email" placeholder="E-mail"/>
               <button className={`${style.subscribe_submit}`}>
